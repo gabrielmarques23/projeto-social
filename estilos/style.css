@@ -51,14 +51,15 @@ section#redes-sociais{
 section#redes-sociais img{
     width: 55px;
     margin: 10px;
+    box-shadow: 2px 2px 7px #00000060;
     border-radius: 50%;
-    box-shadow: 2px 2px 7px #000000a2;
     box-sizing: border-box;
+
 }
 
-section#redes-sociais img:hover{
-    border: 2px solid hsla(0, 0%, 100%, 0.603);
-    transform: translate(-2px, -2px);
+section#redes-sociais  a img:hover{
+    border: 2px solid #ffffffcb;
+    transform: translate(-2px,-2px);
     box-shadow: 5px 5px 10px #0000009a;
-    transition: transform .4s;
+    transition: transform .3s;
 }
